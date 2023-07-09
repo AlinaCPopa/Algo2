@@ -7,29 +7,28 @@ public class Test
 {
     public static void Main()
     {
-        int[] a = new int[] { -1, 6, 3, 4, 7, 4 };
+        var a = new int[] { -1, 6, 3, 4, 7, 4 };
         var nrOfInversions = MergeSort(a, a.Length);
+        Console.WriteLine(nrOfInversions);
     }
 
-    private static int MergeSort(int[] arr, int array_size)
+    private static int MergeSort(IList<int> arr, int arraySize)
     {
-        int[] temp = new int[array_size];
-        return _mergeSort(arr, temp, 0, array_size - 1);
+        var temp = new int[arraySize];
+        return MergeSort(arr, temp, 0, arraySize - 1);
     }
 
-    private static int _mergeSort(int[] arr, int[] temp, int left, int right)
+    private static int MergeSort(IList<int> arr, IList<int> temp, int left, int right)
     {
-        int mid, inv_count = 0;
-        if (right > left)
-        {
-            mid = (right + left) / 2;
+        var invCount = 0;
+        if (right <= left) return invCount;
+        var mid = (right + left) / 2;
 
-            inv_count += _mergeSort(arr, temp, left, mid);
-            inv_count += _mergeSort(arr, temp, mid + 1, right);
+        invCount += MergeSort(arr, temp, left, mid);
+        invCount += MergeSort(arr, temp, mid + 1, right);
 
-            inv_count += Merge(arr, temp, left, mid + 1, right);
-        }
-        return inv_count;
+        invCount += Merge(arr, temp, left, mid + 1, right);
+        return invCount;
     }
 
     private static int Merge(IList<int> arr, IList<int> temp, int left, int mid, int right)
