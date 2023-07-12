@@ -3,23 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.33801.349
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayInversionCount", "Algo2\ArrayInversionCount.csproj", "{703E42BD-44B9-43F4-A203-A14134584DF4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArrayInversionCount", "Algo2\ArrayInversionCount.csproj", "{703E42BD-44B9-43F4-A203-A14134584DF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreeLetters", "ThreeLetters\ThreeLetters.csproj", "{19258510-297D-4716-B8F5-69BEFD3F1837}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreeLetters", "ThreeLetters\ThreeLetters.csproj", "{19258510-297D-4716-B8F5-69BEFD3F1837}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{D1A5A5F8-B60A-42CF-A17C-6A602C9DFDAE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trees", "Trees", "{3FCAB2BF-CD89-4BEB-B373-5E54647C41CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestZigZag", "LongestZigZag\LongestZigZag.csproj", "{D53CAA02-90D2-456B-9B43-28255DE4C594}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LongestZigZag", "LongestZigZag\LongestZigZag.csproj", "{D53CAA02-90D2-456B-9B43-28255DE4C594}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeHeight", "TreeHeight\TreeHeight.csproj", "{508982C9-E5F3-415E-9036-6C1066B9B7B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeHeight", "TreeHeight\TreeHeight.csproj", "{508982C9-E5F3-415E-9036-6C1066B9B7B1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SortAlgorithms", "SortAlgorithms", "{356DD75E-1717-450B-A13A-BCD9994F4B79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSort", "QuickSort\QuickSort.csproj", "{E7274BE5-8A17-48CA-963C-CB6921030181}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSort", "QuickSort\QuickSort.csproj", "{E7274BE5-8A17-48CA-963C-CB6921030181}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeSort", "MergeSort\MergeSort.csproj", "{636EDFEA-E37B-4A4C-9056-337D4DE06A1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeSort", "MergeSort\MergeSort.csproj", "{636EDFEA-E37B-4A4C-9056-337D4DE06A1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumTree", "SumTree\SumTree.csproj", "{B36B8DD6-53FF-4F2F-B763-63A623F8ACF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{636EDFEA-E37B-4A4C-9056-337D4DE06A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{636EDFEA-E37B-4A4C-9056-337D4DE06A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{636EDFEA-E37B-4A4C-9056-337D4DE06A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36B8DD6-53FF-4F2F-B763-63A623F8ACF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36B8DD6-53FF-4F2F-B763-63A623F8ACF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36B8DD6-53FF-4F2F-B763-63A623F8ACF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36B8DD6-53FF-4F2F-B763-63A623F8ACF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,6 +68,7 @@ Global
 		{508982C9-E5F3-415E-9036-6C1066B9B7B1} = {3FCAB2BF-CD89-4BEB-B373-5E54647C41CC}
 		{E7274BE5-8A17-48CA-963C-CB6921030181} = {356DD75E-1717-450B-A13A-BCD9994F4B79}
 		{636EDFEA-E37B-4A4C-9056-337D4DE06A1F} = {356DD75E-1717-450B-A13A-BCD9994F4B79}
+		{B36B8DD6-53FF-4F2F-B763-63A623F8ACF7} = {3FCAB2BF-CD89-4BEB-B373-5E54647C41CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {423D1CE1-C23B-4ECD-982B-B2A036CC250C}

@@ -22,8 +22,8 @@ public class Test
     {
         var invCount = 0;
         if (right <= left) return invCount;
-        var mid = (right + left) / 2;
 
+        var mid = (left + right) / 2;
         invCount += MergeSort(arr, temp, left, mid);
         invCount += MergeSort(arr, temp, mid + 1, right);
 
@@ -31,6 +31,15 @@ public class Test
         return invCount;
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="arr"></param>
+    /// <param name="temp"></param>
+    /// <param name="left"></param>
+    /// <param name="mid"></param>
+    /// <param name="right"></param>
+    /// <returns>The Inversion Counter.</returns>
     private static int Merge(IList<int> arr, IList<int> temp, int left, int mid, int right)
     {
         var invCount = 0;
@@ -39,7 +48,7 @@ public class Test
         var j = mid;
         var k = left;
 
-        while ((i <= mid - 1) && (j <= right))
+        while (i <= mid - 1 && j <= right)
         {
             if (arr[i] <= arr[j])
             {
@@ -51,7 +60,6 @@ public class Test
                 invCount += (mid - i);
             }
         }
-
 
         while (i <= mid - 1)
         {
