@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumTree", "SumTree\SumTree.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concurrency", "Concurrency", "{88AEC5B3-0117-4420-908B-2FCFF79A16F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrencyClassesExample", "ConcurrencyClassesExample\ConcurrencyClassesExample.csproj", "{C7B92E7E-50A8-4FE5-B8E5-43D143760912}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConcurrencyClassesExample", "ConcurrencyClassesExample\ConcurrencyClassesExample.csproj", "{C7B92E7E-50A8-4FE5-B8E5-43D143760912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchronizationExceptionExample", "SynchronizationExceptionExample\SynchronizationExceptionExample.csproj", "{66177E05-3FDB-47A5-B6A3-D2AE41CC45AA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SynchronizationExceptionExample", "SynchronizationExceptionExample\SynchronizationExceptionExample.csproj", "{66177E05-3FDB-47A5-B6A3-D2AE41CC45AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiningPhilosophers", "DiningPhilosophers\DiningPhilosophers.csproj", "{10F011FD-6011-43B1-873D-315ED6D123D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +73,10 @@ Global
 		{66177E05-3FDB-47A5-B6A3-D2AE41CC45AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66177E05-3FDB-47A5-B6A3-D2AE41CC45AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66177E05-3FDB-47A5-B6A3-D2AE41CC45AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F011FD-6011-43B1-873D-315ED6D123D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F011FD-6011-43B1-873D-315ED6D123D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F011FD-6011-43B1-873D-315ED6D123D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F011FD-6011-43B1-873D-315ED6D123D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +91,7 @@ Global
 		{B36B8DD6-53FF-4F2F-B763-63A623F8ACF7} = {3FCAB2BF-CD89-4BEB-B373-5E54647C41CC}
 		{C7B92E7E-50A8-4FE5-B8E5-43D143760912} = {88AEC5B3-0117-4420-908B-2FCFF79A16F1}
 		{66177E05-3FDB-47A5-B6A3-D2AE41CC45AA} = {88AEC5B3-0117-4420-908B-2FCFF79A16F1}
+		{10F011FD-6011-43B1-873D-315ED6D123D0} = {88AEC5B3-0117-4420-908B-2FCFF79A16F1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {423D1CE1-C23B-4ECD-982B-B2A036CC250C}
